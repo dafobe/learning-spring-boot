@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 
 @Controller
-public class mainController {
-	private static final Logger LOGGER = LoggerFactory.getLogger(mainController.class);
+public class MainController {
+	private static final Logger LOGGER = LoggerFactory.getLogger(MainController.class);
 	private static final String DEFAULT_VIEW = "home";
 	private static final String CONTACT_VIEW = "contact";
 	
